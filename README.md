@@ -40,7 +40,22 @@
 
 ## :rocket: Sobre o Projeto
 
+Conjunto de atividades realizadas no modulo de react do curso da b7web, ministrado pelo professor Bonieky Lacerda sobre o entendimento das bases e fundamentos do react framework: 
 
+<ul>
+      <li>Entendendo JSX</li>
+      <li>Components</li>
+      <li>Props</li>
+      <li>useState & useEffect</li>
+      <li>Estilização com stylesheet & styled-Components</li>
+      <li>Condicional de exibição</li>
+</ul>
+
+Dentre varios outros assuntos que serão abordados ainda.
+
+<p align="center">
+    &#x26A0; Projeto em construção &#x26A0;
+</p>
 
 ---
 
