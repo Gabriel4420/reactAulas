@@ -13,7 +13,7 @@ function CalculadoraGorjeta() {
 
   return (
     <Container>
-      <h1>Calculadora Gorjeta</h1>
+      <h1 style={{color:'white'}}>Calculadora Gorjeta</h1>
       <p>Quanto deu a conta?</p>
       <InputType type="number" value={conta} onChange={e => setConta(e.target.value)}  />
       <br/>

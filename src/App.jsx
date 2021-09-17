@@ -1,8 +1,6 @@
 import React from "react";
-import Counter from "./Components/Counter";
-import Input from "./Components/Input";
-import CalculadoraGorjeta from "./Components/CalculadoraGorjeta";
 import "./App.css";
+import RouterExample from "./router-example";
 
 // Componente
 /* const Hello = (props) => {
@@ -32,25 +30,12 @@ export default function App() {
     name:"Gabriel Rodrigues"
   }
  */
+
+  
   return (
     <div className="area">
-      <div className="inputArea">
-        <Input bgColor="#8F008A" borderColor="black" color="#7EFF40" placeholder="Digite seu nome" />
-      </div>
-      <div className="counterArea">
-        <h1 style={{textAlign:'center'}}>Contador</h1>
-        <Counter
-          colorText="#00138C"
-          colorBorder="#00138C"
-          bg="#00138C"
-          font="comic sans ms"
-          colorHover = "#FFD340"
-        />
-        <br/>
-      </div>
-      <div className="gorjetaArea">
-      <CalculadoraGorjeta/>
-     </div>
+      <RouterExample/>
+      
     </div>
     
   );

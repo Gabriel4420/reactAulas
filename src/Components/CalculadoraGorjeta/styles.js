@@ -10,6 +10,7 @@ export const Container = styled.div`
     font-size:24px;
     font-weight: bold;
     font-family: "Helvetica Neue",Helvetica;
+    color:white;
   }
 
   p{
