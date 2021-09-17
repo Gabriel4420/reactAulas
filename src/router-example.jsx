@@ -84,14 +84,11 @@ export default function RouterExample() {
                         </Modal>
                     </div>
                 </Route>
+                {/* TRATATIVA DE ERRO DE ROTA */}
                 <Route path="*">
-                    
-                    
                             <div></div>
                             <h1>Page Not Found</h1>
                             <div></div>
-
-
                 </Route>
             </Switch>
         </BrowserRouter>
